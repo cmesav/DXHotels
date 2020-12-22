@@ -34,6 +34,7 @@ public class RealizarBusqueda implements Task {
                 Click.on(PaginaInicial.BTN_BUSCAR));
 
         try {
+            //actor recuerda los dias calculados por las fechas ingresadas
             actor.remember("dias", Cantidad.deDias(datos.get(0).getFechaInicio(),
                     datos.get(0).getFechaFin()));
         } catch (ParseException e) {

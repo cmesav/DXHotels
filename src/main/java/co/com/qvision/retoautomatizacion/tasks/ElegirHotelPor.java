@@ -27,9 +27,9 @@ public class ElegirHotelPor implements Task {
             values=new ArrayList<>();
         }
         List<String> resultado =Calcular.menorPrecio(list1);
-        System.out.println(resultado.get(1).replace("$",""));
+
         //actor recuerda el precio mas barato por noche
-        actor.remember("barato",resultado.get(1).replace("$","").toString());
+        actor.remember("barato",resultado.get(1).replace("$",""));
 
         actor.attemptsTo(
                 WaitUntil.the(PaginaResultados.BTN_MEJOR_PRECIO.of(resultado.get(1)

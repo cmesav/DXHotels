@@ -8,8 +8,8 @@ import net.serenitybdd.screenplay.actions.Click;
 
 public class Agregar implements Interaction {
 
-    private String tipo;
-    private String cantidad;
+    private final String tipo;
+    private final String cantidad;
 
     public Agregar(String tipo, String cantidad) {
         this.cantidad = cantidad;

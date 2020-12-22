@@ -9,8 +9,8 @@ import net.serenitybdd.screenplay.actions.Enter;
 
 public class Ingresar implements Interaction {
 
-    private String fecha;
-    private String inOut;
+    private final String fecha;
+    private final String inOut;
 
     public Ingresar(String fecha, String inOut) {
         this.fecha = fecha;
