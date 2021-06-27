@@ -4,7 +4,7 @@ Para su ejecución adecuada se requiere que en las variables de entorno del sist
 las siguientes:
 
 * JAVA_HOME (se agrega la ruta en la que se tiene instalado el jdk)
-* MAVEN_HOME (se agrega la ruta donde se encuentra instalado apache maven)
+* GRADLE_HOME (se agrega la ruta donde se encuentra instalado apache maven)
 * En la variable Path se deben incluir de la siguiente manera %JAVA_HOME%\bin, %GRADLE_HOME%\bin y se debe agregar la
   ruta donde se encuentran almacenados los drivers de los diferentes navegadores a usar en las pruebas,
   ejemplo : C:\BrowserDrivers.
